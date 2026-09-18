@@ -1,0 +1,21 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Surf", "RCM", "QRD", "HDK"],
+    "soc_id": ["618"]
+  },
+  "oplus_backtap_commom":{
+    "owner": "oplus_backtap",
+    ".config":{
+      "owner": "oplus_backtap",
+      "is_available":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "threshold":{ "type": "flt", "ver": "2",
+        "data": "0.2"
+      },
+      "sensor_lowerlimit":{ "type": "flt", "ver": "0",
+        "data": "6.0"
+      }
+    }
+  }
+}
