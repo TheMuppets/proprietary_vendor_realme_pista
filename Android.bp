@@ -14678,6 +14678,31 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libstfaceunlockocl_uff",
+    owner: "realme",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libstfaceunlockocl_uff.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libOpenCL",
+                "libm",
+                "libc",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libstfd_mobile_api",
     owner: "realme",
     strip: {

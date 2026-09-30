@@ -1001,6 +1001,16 @@ PRODUCT_COPY_FILES += \
     vendor/realme/pista/proprietary/odm/firmware/tp/24600/sys_touch_algo_feature_config.xml:$(TARGET_COPY_OUT_ODM)/firmware/tp/24600/sys_touch_algo_feature_config.xml \
     vendor/realme/pista/proprietary/odm/firmware/tp/24600/sys_touch_function_feature_config.xml:$(TARGET_COPY_OUT_ODM)/firmware/tp/24600/sys_touch_function_feature_config.xml \
     vendor/realme/pista/proprietary/odm/firmware/tp/24600/sys_touch_scene_config.xml:$(TARGET_COPY_OUT_ODM)/firmware/tp/24600/sys_touch_scene_config.xml \
+    vendor/realme/pista/proprietary/odm/firmware/uff_face.b00:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b00 \
+    vendor/realme/pista/proprietary/odm/firmware/uff_face.b01:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b01 \
+    vendor/realme/pista/proprietary/odm/firmware/uff_face.b02:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b02 \
+    vendor/realme/pista/proprietary/odm/firmware/uff_face.b03:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b03 \
+    vendor/realme/pista/proprietary/odm/firmware/uff_face.b04:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b04 \
+    vendor/realme/pista/proprietary/odm/firmware/uff_face.b05:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b05 \
+    vendor/realme/pista/proprietary/odm/firmware/uff_face.b06:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b06 \
+    vendor/realme/pista/proprietary/odm/firmware/uff_face.b07:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b07 \
+    vendor/realme/pista/proprietary/odm/firmware/uff_face.b08:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b08 \
+    vendor/realme/pista/proprietary/odm/firmware/uff_face.mdt:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.mdt \
     vendor/realme/pista/proprietary/odm/firmware/uff_qcom.b00:$(TARGET_COPY_OUT_ODM)/firmware/uff_qcom.b00 \
     vendor/realme/pista/proprietary/odm/firmware/uff_qcom.b01:$(TARGET_COPY_OUT_ODM)/firmware/uff_qcom.b01 \
     vendor/realme/pista/proprietary/odm/firmware/uff_qcom.b02:$(TARGET_COPY_OUT_ODM)/firmware/uff_qcom.b02 \
@@ -1567,6 +1577,7 @@ PRODUCT_PACKAGES += \
     libsharebuffer_impl \
     libssd_det \
     libstface_fd_api \
+    libstfaceunlockocl_uff \
     libstfd_mobile_api \
     libtrace \
     libvega_common \
