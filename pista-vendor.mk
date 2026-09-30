@@ -728,6 +728,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/pista/proprietary/odm/etc/camera/wide_padding_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide_padding_mapxy_33x25.bin \
     vendor/realme/pista/proprietary/odm/etc/display/qdcm_calib_data_AB849_P_1_A0022_dsc_cmd_mode_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_AB849_P_1_A0022_dsc_cmd_mode_panel.json \
     vendor/realme/pista/proprietary/odm/etc/display/qdcm_calib_data_P_3_AB849_dsc_cmd_mode_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_P_3_AB849_dsc_cmd_mode_panel.json \
+    vendor/realme/pista/proprietary/odm/etc/fusionlight_profile/fusionlight_Main_0_3.json:$(TARGET_COPY_OUT_ODM)/etc/fusionlight_profile/fusionlight_Main_0_3.json \
+    vendor/realme/pista/proprietary/odm/etc/fusionlight_profile/fusionlight_Main_1_3.json:$(TARGET_COPY_OUT_ODM)/etc/fusionlight_profile/fusionlight_Main_1_3.json \
     vendor/realme/pista/proprietary/odm/etc/init/init.camera_process.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_process.rc \
     vendor/realme/pista/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
     vendor/realme/pista/proprietary/odm/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat \
