@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/pista/proprietary/odm/etc/PanelChaplin/P_3_AB849_dsc_cmd_mode_panel_2_2nit.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/P_3_AB849_dsc_cmd_mode_panel_2_2nit.odf \
     vendor/realme/pista/proprietary/odm/etc/PanelChaplin/P_3_AB849_dsc_cmd_mode_panel_2_max.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/P_3_AB849_dsc_cmd_mode_panel_2_max.odf \
     vendor/realme/pista/proprietary/odm/etc/PanelChaplin/P_3_AB849_dsc_cmd_mode_panel_HS:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/P_3_AB849_dsc_cmd_mode_panel_HS \
+    vendor/realme/pista/proprietary/odm/etc/PanelChaplin/panelchaplin:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/panelchaplin \
     vendor/realme/pista/proprietary/odm/etc/camera/AIAEVideoModel.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/AIAEVideoModel.bin \
     vendor/realme/pista/proprietary/odm/etc/camera/AiFace.json:$(TARGET_COPY_OUT_ODM)/etc/camera/AiFace.json \
     vendor/realme/pista/proprietary/odm/etc/camera/BodySeg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/BodySeg.json \
