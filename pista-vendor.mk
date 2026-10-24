@@ -810,6 +810,26 @@ PRODUCT_COPY_FILES += \
     vendor/realme/pista/proprietary/odm/etc/sensor/config/pakala_mtp_pocket.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/pakala_mtp_pocket.json \
     vendor/realme/pista/proprietary/odm/etc/sensor/config/pista_qrd_ois_system.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/pista_qrd_ois_system.json \
     vendor/realme/pista/proprietary/odm/etc/sensor/config/sns_gyro_cal.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/sns_gyro_cal.json \
+    vendor/realme/pista/proprietary/odm/etc/spatializer/HP_MOVIE_ANALOG.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_ANALOG.bin \
+    vendor/realme/pista/proprietary/odm/etc/spatializer/HP_MOVIE_BLUETOOTH.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_BLUETOOTH.bin \
+    vendor/realme/pista/proprietary/odm/etc/spatializer/HP_MOVIE_DIGITAL.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_DIGITAL.bin \
+    vendor/realme/pista/proprietary/odm/etc/spatializer/HP_MOVIE_GALILEO.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_GALILEO.bin \
+    vendor/realme/pista/proprietary/odm/etc/spatializer/HP_MUSIC_ANALOG.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_ANALOG.bin \
+    vendor/realme/pista/proprietary/odm/etc/spatializer/HP_MUSIC_BLUETOOTH.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_BLUETOOTH.bin \
+    vendor/realme/pista/proprietary/odm/etc/spatializer/HP_MUSIC_DIGITAL.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_DIGITAL.bin \
+    vendor/realme/pista/proprietary/odm/etc/spatializer/HP_MUSIC_GALILEO.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_GALILEO.bin \
+    vendor/realme/pista/proprietary/odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin \
+    vendor/realme/pista/proprietary/odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin \
+    vendor/realme/pista/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl1.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl1.bin \
+    vendor/realme/pista/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl10.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl10.bin \
+    vendor/realme/pista/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl2.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl2.bin \
+    vendor/realme/pista/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl3.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl3.bin \
+    vendor/realme/pista/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl4.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl4.bin \
+    vendor/realme/pista/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl5.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl5.bin \
+    vendor/realme/pista/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl6.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl6.bin \
+    vendor/realme/pista/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl7.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl7.bin \
+    vendor/realme/pista/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl8.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl8.bin \
+    vendor/realme/pista/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl9.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl9.bin \
     vendor/realme/pista/proprietary/odm/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_ODM)/etc/usecaseKvManager.xml \
     vendor/realme/pista/proprietary/odm/etc/vibrator/809/def/effect_0.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/809/def/effect_0.bin \
     vendor/realme/pista/proprietary/odm/etc/vibrator/809/def/effect_1.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/809/def/effect_1.bin \
@@ -1575,6 +1595,7 @@ PRODUCT_PACKAGES += \
     libmvgfusion \
     libocce3a \
     libocompression \
+    liboplus_audiox \
     liboplusdfx \
     libopluspdparam \
     liboutils \
@@ -1596,6 +1617,7 @@ PRODUCT_PACKAGES += \
     libwrapper_te \
     libyuvwrapper \
     libzlib \
+    libOplusSpatializerAidl \
     vendor.dolby.dvs-V1-ndk \
     vendor.oplus.hardware.camera.aon-service-impl \
     vendor.oplus.hardware.camera_rfi-V1-service-impl \
