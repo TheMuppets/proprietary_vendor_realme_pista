@@ -15202,6 +15202,24 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+    name: "secure_element-service.xml",
+    owner: "realme",
+    src: "proprietary/odm/etc/vintf/manifest/secure_element-service.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    device_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "secure_element_omapi_service.xml",
+    owner: "realme",
+    src: "proprietary/odm/etc/vintf/manifest/secure_element_omapi_service.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    device_specific: true,
+}
+
+prebuilt_etc_xml {
     name: "vendor.oplus.camera.aon-impl.xml",
     owner: "realme",
     src: "proprietary/odm/etc/vintf/manifest/vendor.oplus.camera.aon-impl.xml",
@@ -15261,6 +15279,41 @@ cc_prebuilt_binary {
     prefer: true,
     relative_install_path: "hw",
     soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.secure_element-service.qti",
+    owner: "realme",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/bin/hw/android.hardware.secure_element-service.qti",
+            ],
+            shared_libs: [
+                "libQSEEComAPI",
+                "libEseUtils",
+                "libGPQeSE",
+                "libbase",
+                "liblog",
+                "libutils",
+                "libbinder_ndk",
+                "android.hardware.secure_element-V1-ndk",
+                "android.hardware.nfc-V1-ndk",
+                "libsecurity_event_olc_vnd",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    device_specific: true,
 }
 
 cc_prebuilt_binary {
